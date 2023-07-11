@@ -2,6 +2,11 @@
 
 #### This project is basically made for Python, which uses FLASK and Postgres ,which includes the CRUD operation.
 
+### Run Project
+
+docker-compose up -d
+
+
 
 ####
 ### POST
