@@ -1,4 +1,4 @@
-# flask-crud-postgres
+# Flask-Crud-Postgres
 
 #### This project is basically made for Python, which uses FLASK and Postgres ,which includes the CRUD operation.
 
