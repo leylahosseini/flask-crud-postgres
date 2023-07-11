@@ -10,13 +10,13 @@ docker-compose up -d
 
 ####
 ### POST
-curl -X POST localhost:4000/users    -d '{"username":"test1@test.com" , "email":"test1@test.com"}'   --header "Content-Type: application/json"
+curl -X POST localhost:4000/users         -d '{"username":"test1@test.com" , "email":"test1@test.com"}'   --header "Content-Type: application/json"
 
 ### GET
 curl -X GET  localhost:4000/users    
 
 ### PUT
-curl -X PUT localhost:4000/users/:id   -d '{"username":"test1@test.com" , "email":"test1@test.com"}'   --header "Content-Type: application/json"
+curl -X PUT localhost:4000/users/:id      -d '{"username":"test1@test.com" , "email":"test1@test.com"}'   --header "Content-Type: application/json"
 
 ### DELETE
 curl -X DELETE localhost:4000/users/:id 
